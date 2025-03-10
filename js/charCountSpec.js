@@ -1,12 +1,13 @@
 var char = require("./charCount");
 
-let result_1 = char.charCount("aaabbc")
-console.log(result_1[0][0] === "a")
-console.log(result_1[0][1] === 3)
-console.log(result_1[1][0] === "b")
-console.log(result_1[1][1] === 2)
-console.log(result_1[2][0] === "c")
-console.log(result_1[2][1] === 1)
+// let result_1 = char.charCount("zayayfyyazbzbzcd")
+// let result_1 = char.charCount("aaabbc")
+// console.log(result_1[0][0] === "a")
+// console.log(result_1[0][1] === 3)
+// console.log(result_1[1][0] === "b")
+// console.log(result_1[1][1] === 2)
+// console.log(result_1[2][0] === "c")
+// console.log(result_1[2][1] === 1)
 
 let result_2 = char.charCount("an apple a day will keep the doctor away")
 console.log(result_2[0][0] === "a")
